@@ -78,19 +78,6 @@ const CustomSelectBar = ({ data, onSelected }: CustomSelectBarType) => {
         })}
       </Dropdown.Menu>
     </Dropdown>
-    // <DropdownButton
-    //   className={styles.dropdown}
-    //   variant={"dark"}
-    //   title={
-    //     optionSelected
-    //       ? optionSelected
-    //       : isGenre(data)
-    //       ? "Filter by genre"
-    //       : "Filter by year"
-    //   }
-    // >
-
-    // </DropdownButton>
   );
 };
 
